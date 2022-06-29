@@ -24,7 +24,7 @@ exports[`dashboard test should render dashboard snapshot 1`] = `
       Welcome to Lokalise!
     </Text>
     <Text>
-      https://myapi.preprod.com
+      https://myapi.dev.com
     </Text>
     <Text>
       Esto es una prueba
