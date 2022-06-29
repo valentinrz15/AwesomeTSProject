@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loading indicator test should render loading indicator with color 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="container-loading-indicator"
+>
+  <ActivityIndicator
+    color="#000000"
+  />
+</View>
+`;
+
+exports[`loading indicator test should render loading indicator with size large 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="container-loading-indicator"
+>
+  <ActivityIndicator
+    size="large"
+  />
+</View>
+`;
+
+exports[`loading indicator test should render loading indicator with size small 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="container-loading-indicator"
+>
+  <ActivityIndicator
+    size="small"
+  />
+</View>
+`;
+
+exports[`loading indicator test should render loading indicator without color and size 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="container-loading-indicator"
+>
+  <ActivityIndicator />
+</View>
+`;

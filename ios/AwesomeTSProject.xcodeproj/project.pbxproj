@@ -12,8 +12,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		43D85AF3B809555F2FC01F77 /* libPods-AwesomeTSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeTSProject.a */; };
 		7699B88040F8A987B510C191 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		95A6FB662865352E006891D5 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95A6FB652865352E006891D5 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,26 +35,26 @@
 		023AEFE2DE45C45B32FECB4D /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.debugdev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		05440E7103C988ABD9561C07 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugpreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.debugpreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.debugpreprod.xcconfig"; sourceTree = "<group>"; };
 		0934F395314C81963DD8E986 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releasepreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.releasepreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.releasepreprod.xcconfig"; sourceTree = "<group>"; };
-		0E5373FBF070C23EFB3D6C30 /* Pods-AwesomeTSProject.releasepreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releasepreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releasepreprod.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AwesomeTSProject Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeTSProject Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeTSProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AwesomeTSProject/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeTSProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeTSProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeTSProject/main.m; sourceTree = "<group>"; };
+		15478F482E29AA971B522E3F /* Pods-AwesomeTSProject.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releasedev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releasedev.xcconfig"; sourceTree = "<group>"; };
 		18B7D1C558286AB5F277E3D2 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeTSProject-AwesomeTSProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		302FB74FB0113EDA41E26967 /* Pods-AwesomeTSProject.debugpreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugpreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugpreprod.xcconfig"; sourceTree = "<group>"; };
+		25ED796EBBE6CF5E02B6BBDF /* Pods-AwesomeTSProject.releasepreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releasepreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releasepreprod.xcconfig"; sourceTree = "<group>"; };
+		2C541A297957FE3DF219B371 /* Pods-AwesomeTSProject.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releaseprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		419C6A5F38FAB0F1CC33BF1C /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.releasedev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.releasedev.xcconfig"; sourceTree = "<group>"; };
-		4A26693947F0F27747B4C4A0 /* Pods-AwesomeTSProject.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releaseprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeTSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeTSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1B5607DB2676BD323DF06E /* Pods-AwesomeTSProject.debugpreprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugpreprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugpreprod.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeTSProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95E460892864C3F10042A61C /* AwesomeTSProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AwesomeTSProject copy-Info.plist"; path = "/Users/valentinrz/workspace/AwesomeTSProject/ios/AwesomeTSProject copy-Info.plist"; sourceTree = "<absolute>"; };
-		B1E55DA01CF2F0DB606EA177 /* Pods-AwesomeTSProject.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugprod.xcconfig"; sourceTree = "<group>"; };
+		95A6FB652865352E006891D5 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		9C7805EC3C4EE3C35C6205D2 /* Pods-AwesomeTSProject.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugprod.xcconfig"; sourceTree = "<group>"; };
+		D259D9BFA95239C11508CA79 /* Pods-AwesomeTSProject.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugdev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugdev.xcconfig"; sourceTree = "<group>"; };
 		E47FBC5483AA082B21B11B5E /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.debugprod.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.debugprod.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EEACBFCE4354AC5CD6681400 /* Pods-AwesomeTSProject.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debugdev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debugdev.xcconfig"; sourceTree = "<group>"; };
-		F98B97EBD46FBC3D74E70F17 /* Pods-AwesomeTSProject.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.releasedev.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.releasedev.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-AwesomeTSProject.a in Frameworks */,
+				43D85AF3B809555F2FC01F77 /* libPods-AwesomeTSProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +98,7 @@
 		13B07FAE1A68108700A75B9A /* AwesomeTSProject */ = {
 			isa = PBXGroup;
 			children = (
+				95A6FB652865352E006891D5 /* AppCenter-Config.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -131,7 +135,6 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				95E460892864C3F10042A61C /* AwesomeTSProject copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -150,18 +153,18 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEACBFCE4354AC5CD6681400 /* Pods-AwesomeTSProject.debugdev.xcconfig */,
-				B1E55DA01CF2F0DB606EA177 /* Pods-AwesomeTSProject.debugprod.xcconfig */,
-				302FB74FB0113EDA41E26967 /* Pods-AwesomeTSProject.debugpreprod.xcconfig */,
-				F98B97EBD46FBC3D74E70F17 /* Pods-AwesomeTSProject.releasedev.xcconfig */,
-				4A26693947F0F27747B4C4A0 /* Pods-AwesomeTSProject.releaseprod.xcconfig */,
-				0E5373FBF070C23EFB3D6C30 /* Pods-AwesomeTSProject.releasepreprod.xcconfig */,
 				023AEFE2DE45C45B32FECB4D /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugdev.xcconfig */,
 				E47FBC5483AA082B21B11B5E /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugprod.xcconfig */,
 				05440E7103C988ABD9561C07 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debugpreprod.xcconfig */,
 				419C6A5F38FAB0F1CC33BF1C /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releasedev.xcconfig */,
 				18B7D1C558286AB5F277E3D2 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releaseprod.xcconfig */,
 				0934F395314C81963DD8E986 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.releasepreprod.xcconfig */,
+				D259D9BFA95239C11508CA79 /* Pods-AwesomeTSProject.debugdev.xcconfig */,
+				9C7805EC3C4EE3C35C6205D2 /* Pods-AwesomeTSProject.debugprod.xcconfig */,
+				7C1B5607DB2676BD323DF06E /* Pods-AwesomeTSProject.debugpreprod.xcconfig */,
+				15478F482E29AA971B522E3F /* Pods-AwesomeTSProject.releasedev.xcconfig */,
+				2C541A297957FE3DF219B371 /* Pods-AwesomeTSProject.releaseprod.xcconfig */,
+				25ED796EBBE6CF5E02B6BBDF /* Pods-AwesomeTSProject.releasepreprod.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				95A6FB662865352E006891D5 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +501,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEACBFCE4354AC5CD6681400 /* Pods-AwesomeTSProject.debugdev.xcconfig */;
+			baseConfigurationReference = D259D9BFA95239C11508CA79 /* Pods-AwesomeTSProject.debugdev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -530,7 +534,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F98B97EBD46FBC3D74E70F17 /* Pods-AwesomeTSProject.releasedev.xcconfig */;
+			baseConfigurationReference = 15478F482E29AA971B522E3F /* Pods-AwesomeTSProject.releasedev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -591,7 +595,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -662,7 +666,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -726,7 +730,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -766,7 +770,7 @@
 		};
 		958F84522863524100003A5F /* DebugPreprod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 302FB74FB0113EDA41E26967 /* Pods-AwesomeTSProject.debugpreprod.xcconfig */;
+			baseConfigurationReference = 7C1B5607DB2676BD323DF06E /* Pods-AwesomeTSProject.debugpreprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -856,7 +860,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -896,7 +900,7 @@
 		};
 		958F84552863524C00003A5F /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E55DA01CF2F0DB606EA177 /* Pods-AwesomeTSProject.debugprod.xcconfig */;
+			baseConfigurationReference = 9C7805EC3C4EE3C35C6205D2 /* Pods-AwesomeTSProject.debugprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -980,7 +984,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1013,7 +1017,7 @@
 		};
 		958F84582863525800003A5F /* ReleasePreprod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E5373FBF070C23EFB3D6C30 /* Pods-AwesomeTSProject.releasepreprod.xcconfig */;
+			baseConfigurationReference = 25ED796EBBE6CF5E02B6BBDF /* Pods-AwesomeTSProject.releasepreprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1097,7 +1101,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1130,7 +1134,7 @@
 		};
 		958F845B2863525F00003A5F /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A26693947F0F27747B4C4A0 /* Pods-AwesomeTSProject.releaseprod.xcconfig */;
+			baseConfigurationReference = 2C541A297957FE3DF219B371 /* Pods-AwesomeTSProject.releaseprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

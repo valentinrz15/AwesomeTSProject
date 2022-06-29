@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal default test should render modal default snapshot 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  visible={true}
+>
+  <Text>
+    Modal
+  </Text>
+</Modal>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard test should render dashboard snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flex": 1,
+    }
+  }
+  testID="dashboard-index-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#000",
+        "justifyContent": "center",
+      }
+    }
+    testID="dashboard-index-content"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+        }
+      }
+    >
+      Welcome to Lokalise!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+        }
+      }
+    >
+      https://myapi.dev.com
+    </Text>
+  </View>
+</View>
+`;

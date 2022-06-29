@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`activity list content test should render activity list content snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+  testID="activity-activity-list-content-container"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "marginHorizontal": 5,
+        "marginVertical": 10,
+        "opacity": 1,
+        "padding": 5,
+      }
+    }
+    testID="activity-activity-list-content-button"
+  >
+    <Text>
+      Hola
+    </Text>
+  </View>
+</View>
+`;

@@ -3,9 +3,11 @@
 .DS_Store
 
 # Enverimoments
+.env*
 .env
 .env.dev
 .env.prod
+.env.preprod
 
 # Xcode
 #
