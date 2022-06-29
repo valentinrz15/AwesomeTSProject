@@ -2,6 +2,7 @@
   "name": "awesometsproject",
   "version": "0.0.1",
   "private": true,
+  "engines": {},
   "scripts": {
     "start": "react-native start",
     "android": "cp ./.env.dev ./.env; react-native run-android --variant=devDebug --appIdSuffix dev",
