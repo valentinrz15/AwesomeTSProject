@@ -24,9 +24,5 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - name: create env file
-      run: |
-        touch .env
-        echo API_URL=${{ secrets.API_URL }} >> .env
     - run: yarn install
     - run: yarn test
