@@ -4,7 +4,7 @@ exports[`dashboard test should render dashboard snapshot 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#000",
+      "backgroundColor": "#FFF",
       "flex": 1,
     }
   }
@@ -14,29 +14,20 @@ exports[`dashboard test should render dashboard snapshot 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#000",
+        "backgroundColor": "#FFF",
         "justifyContent": "center",
       }
     }
     testID="dashboard-index-content"
   >
-    <Text
-      style={
-        Object {
-          "color": "#FFF",
-        }
-      }
-    >
+    <Text>
       Welcome to Lokalise!
     </Text>
-    <Text
-      style={
-        Object {
-          "color": "#FFF",
-        }
-      }
-    >
-      https://myapi.dev.com
+    <Text>
+      https://myapi.preprod.com
+    </Text>
+    <Text>
+      Esto es una prueba
     </Text>
   </View>
 </View>
